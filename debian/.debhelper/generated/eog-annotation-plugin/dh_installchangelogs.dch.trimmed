@@ -1,0 +1,8 @@
+eog-annotation-plugin (1.0.0-1) unstable; urgency=medium
+
+  * Initial release
+  * Image annotation plugin for EOG with arrows, dots, rectangles, circles, and text
+  * Undo/redo support with unlimited history
+  * Auto-hide toolbar when zoomed or in fullscreen
+
+ -- Jan Sechovec <jan@flexer.cz>  Mon, 01 Jan 2025 12:00:00 +0000

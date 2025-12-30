@@ -21,7 +21,6 @@ __pycache__/
 Thumbs.db
 
 # Build artifacts
-*.deb
 *.egg-info/
 dist/
 build/

@@ -1,0 +1,11 @@
+[Plugin]
+Loader=python3
+Module=annotation
+IAge=3
+Name=Image Annotation Tool
+Description=Add annotations to images: arrows, numbered dots, rectangles, circles, and text labels with undo/redo support
+Authors=Jan Sechovec
+Copyright=Copyright © 2025
+Website=flexer.cz
+Icon=text-editor
+

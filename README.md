@@ -34,9 +34,46 @@ The annotation toolbar integrates seamlessly into EOG's interface and provides a
   - `gir1.2-gtk-3.0` - GTK+ 3.0 typelib
   - `gir1.2-rsvg-2.0` - librsvg bindings (optional, for custom icons)
 
+## Downloads
+
+### Pre-built .deb Package (Recommended)
+
+Download the pre-built Debian package for easy installation:
+
+- **Download**: [eog-annotation-plugin_1.0.0-1_all.deb](packaged/eog-annotation-plugin_1.0.0-1_all.deb)
+
+**Installation from .deb package**:
+```bash
+sudo dpkg -i packaged/eog-annotation-plugin_1.0.0-1_all.deb
+```
+
+If there are dependency issues, fix them with:
+```bash
+sudo apt-get install -f
+```
+
+The package will automatically install all required dependencies.
+
 ## Installation
 
-### Quick Install
+### Method 1: Install from .deb Package (Recommended)
+
+1. **Download the package**: See [Downloads](#downloads) section above
+
+2. **Install the package**:
+   ```bash
+   sudo dpkg -i packaged/eog-annotation-plugin_1.0.0-1_all.deb
+   sudo apt-get install -f  # Fix any dependency issues
+   ```
+
+3. **Enable the plugin**:
+   - Open EOG (Eye of GNOME)
+   - Go to **Edit → Preferences → Plugins**
+   - Check the box next to **Image Annotation Tool**
+   - Close the preferences dialog
+   - Restart EOG or open an image
+
+### Method 2: Manual Installation
 
 1. **Install prerequisites**:
    ```bash
@@ -141,7 +178,12 @@ This ensures annotations are only available when they make sense (at 100% zoom f
 ├── arrow-diagonal-symbolic.svg # Custom arrow icon
 ├── numbered-dot-symbolic.svg  # Custom numbered dot icon
 ├── install.sh                 # Installation script
+├── build-deb.sh               # Build script for .deb package
+├── packaged/                  # Pre-built .deb package
+│   └── eog-annotation-plugin_1.0.0-1_all.deb
+├── debian/                    # Debian packaging files
 ├── README.md                  # This file
+├── BUILDING.md                # Build instructions for .deb package
 ├── LICENSE                    # MIT License
 └── .gitignore                # Git ignore file
 ```

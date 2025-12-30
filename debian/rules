@@ -1,0 +1,23 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	# No build artifacts to clean
+
+override_dh_auto_build:
+	# No build step needed for Python plugin
+
+override_dh_auto_install:
+	# Files are installed via debian/install file
+
+override_dh_auto_test:
+	# Skip tests during package build
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod +x debian/eog-annotation-plugin/usr/share/eog/plugins/annotation.py || true
+
