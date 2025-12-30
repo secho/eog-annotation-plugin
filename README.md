@@ -2,6 +2,12 @@
 
 A native plugin for GNOME Image Viewer (Eye of GNOME / EOG) that provides comprehensive annotation tools for images.
 
+## Preview
+
+![EOG Annotation Plugin Preview](media/preview.png)
+
+*Annotation toolbar in action - adding arrows, text labels, rectangles, circles, and numbered dots to images*
+
 ## Features
 
 - **Arrows**: Draw arrows with multiple styles (Standard, Open, Double, Small, Large)
@@ -19,7 +25,7 @@ A native plugin for GNOME Image Viewer (Eye of GNOME / EOG) that provides compre
 
 ## Screenshots
 
-The annotation toolbar integrates seamlessly into EOG's interface and provides all tools in a compact, icon-based toolbar.
+See the [Preview](#preview) section above for a demonstration of the plugin in action. The annotation toolbar integrates seamlessly into EOG's interface and provides all tools in a compact, icon-based toolbar.
 
 ## Requirements
 
