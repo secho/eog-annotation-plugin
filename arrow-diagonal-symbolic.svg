@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- Diagonal arrow from bottom-left to top-right with filled arrowhead -->
+  <!-- Main line - white color for light theme -->
+  <line x1="2" y1="12" x2="10" y2="4" 
+        stroke="#ffffff" 
+        stroke-width="1.5" 
+        stroke-linecap="round"/>
+  <!-- Arrowhead triangle (filled) - white color -->
+  <path d="M 10 4 L 7.5 2 L 7.5 6 Z" 
+        fill="#ffffff" 
+        stroke="none"/>
+</svg>
